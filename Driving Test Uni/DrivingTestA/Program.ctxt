@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Program
+comment1.params=
+comment1.target=Program()
+comment1.text=\r\n\ Open\ a\ connection\ to\ the\ MBED.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ The\ starting\ point\ for\ the\ interactions.\r\n
+comment3.params=
+comment3.target=void\ pswitch()
+comment4.params=A0
+comment4.target=void\ playNote(shed.mbed.Note)
+comment5.params=
+comment5.target=void\ finish()
+comment5.text=\r\n\ Close\ the\ connection\ to\ the\ MBED.\r\n
+comment6.params=millis
+comment6.target=void\ sleep(int)
+comment6.text=\r\n\ A\ simple\ support\ method\ for\ sleeping\ the\ program.\r\n\ @param\ millis\ The\ number\ of\ milliseconds\ to\ sleep\ for.\r\n
+numComments=7

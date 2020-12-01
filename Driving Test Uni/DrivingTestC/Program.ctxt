@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\r\n\ @author\ ash\r\n\ @version\ 2016-01-05\r\n\r\n\ This\ example\ reads\ the\ temperature\ from\ the\ temperature\ sensor\r\n\ every\ second.\ If\ the\ tempertaure\ is\ too\ high,\ the\ led\ turns\r\n\ red.\ Otherwise\ it\ is\ blue.\r\n\r\n\ Your\ task\ is\ to\ chage\ the\ current\ program\ so\ that\ if\ the\r\n\ temperature\ is\ above\ 27\ degress,\ set\ the\ board\ led\ is\ red,\ if\r\n\ the\ temperature\ is\ equal\ to\ or\ below\ 24\ it\ turns\ blue,\ and\ is\r\n\ green\ if\ it\ is\ between\ these\ two\ thresholds.\r\n\ \r\n
+comment1.params=
+comment1.target=Program()
+comment1.text=\r\n\ Open\ a\ connection\ to\ the\ MBED.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ The\ starting\ point\ for\ the\ interactions.\r\n
+comment3.params=
+comment3.target=void\ finish()
+comment3.text=\r\n\ Close\ the\ connection\ to\ the\ MBED.\r\n
+comment4.params=millis
+comment4.target=void\ sleep(int)
+comment4.text=\r\n\ A\ simple\ support\ method\ for\ sleeping\ the\ program.\r\n\ @param\ millis\ The\ number\ of\ milliseconds\ to\ sleep\ for.\r\n
+numComments=5

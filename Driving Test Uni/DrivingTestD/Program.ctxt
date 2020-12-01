@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\r\n\ This\ program\ prints\ the\ direction\ of\ the\ joystick\ to\ the\ LCD\r\n\ screen\ when\ it\ is\ pressed\ LEFT,\ RIGHT,\ or\ FIRE.\ Additionally\r\n\ the\ left\ and\ right\ motion\ of\ the\ joystick\ also\ toggle\ the\ two\r\n\ LEDs.\r\n\r\n\ Your\ task\ is\ to\ modify\ the\ program\ so\ that\ the\ left\ and\ right\r\n\ motion\ now\ picks\ which\ LED\ to\ toggle\ and\ pressing\ the\ joystick\r\n\ toggles\ that\ LED.\ Which\ way\ and\ if\ it\ still\ prints\ out\ the\r\n\ messages\ to\ the\ LCD\ are\ left\ up\ to\ you.\r\n\ \r\n\ @author\ djb\ +\ ash\r\n\ @version\ 2015.01.05\r\n
+comment1.params=
+comment1.target=Program()
+comment1.text=\r\n\ Open\ a\ connection\ to\ the\ MBED.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ The\ starting\ point\ for\ the\ interactions.\r\n
+comment3.params=
+comment3.target=void\ finish()
+comment3.text=\r\n\ Close\ the\ connection\ to\ the\ MBED.\r\n
+comment4.params=millis
+comment4.target=void\ sleep(int)
+comment4.text=\r\n\ A\ simple\ support\ method\ for\ sleeping\ the\ program.\r\n\ @param\ millis\ The\ number\ of\ milliseconds\ to\ sleep\ for.\r\n
+numComments=5

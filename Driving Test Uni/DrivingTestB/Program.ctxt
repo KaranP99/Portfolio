@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\r\n\ In\ this\ example,\ a\ listener\ is\ added\ to\ button\ SW3\ making\ the\ LED\r\n\ cycle\ through\ white\ and\ black\ (off).\r\n\r\n\ Your\ task\ is\ to\ add\ additional\ colours\ to\ the\ cycle.\ Your\ target\r\n\ pattern\ is\ Red,\ Green,\ Blue,\ White,\ Off\ (Black)\r\n\ \r\n\ @author\ djb\ +\ ash\r\n\ @version\ 2016.01.05\r\n
+comment1.params=
+comment1.target=Program()
+comment1.text=\r\n\ Open\ a\ connection\ to\ the\ MBED.\r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ The\ starting\ point\ for\ the\ interactions.\r\n
+comment3.params=
+comment3.target=void\ finish()
+comment3.text=\r\n\ Close\ the\ connection\ to\ the\ MBED.\r\n
+comment4.params=millis
+comment4.target=void\ sleep(int)
+comment4.text=\r\n\ A\ simple\ support\ method\ for\ sleeping\ the\ program.\r\n\ @param\ millis\ The\ number\ of\ milliseconds\ to\ sleep\ for.\r\n
+numComments=5
