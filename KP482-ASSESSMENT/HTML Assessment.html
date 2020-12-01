@@ -1,0 +1,120 @@
+<html>
+<body>
+<title> KP482 - Assessment 1 </title>
+<h1> Question 1 </h1>
+
+<div >
+  Name:<br>
+  <input type="text" name= "name" id="name"><br><br>
+
+  Birth Date:<br> <input type="date" name ="bday" id="bday"><br>
+
+  <br>Eye Colour:<br>
+  <select name = "eyecolour" id="eyecolour">
+  <option value="Blue">Blue</option>
+  <option value="Brown">Brown</option>
+  <option value="Green">Green</option>
+  <option value="Grey">Grey</option>
+  <option value="Other">Other</option>
+</select><br>
+<br> <input type="button" onclick="resetPage()" value="Reset form">
+<br> <button onclick="addHtmlTableRow();">Display</button>
+</div>
+
+
+<div class="container">
+            <div class="tab tab-1">
+<table id="table" border="1">
+<tr>
+<th bgcolor="white">Name</th>
+<th bgcolor="white">Date Of Birth</th>
+<th bgcolor="white">EyeColour</th>
+<td>Delete</td>
+</tr>
+
+</table>
+
+</div>
+
+<style>
+
+            table{
+    border:1px solid;
+}
+
+tbody tr:nth-child(even){
+    background-color:blue;
+    font-weight: bold;
+}
+tbody tr:nth-child(odd){
+    background-color:yellow;
+    font-weight: bold;
+}
+</style>
+</body>
+</hmtl>
+
+<script>
+var index, table = document.getElementById('table');
+for(var i = 1; i<table.rows.length;i++)
+{
+  table.rows[i].cells[3].onclick = function()
+  {
+index = this.parentElement.rowIndex;
+table.deleteRow(index);
+  }
+
+};
+
+    var rows = document.getElementById(table).getElementsByTagName("tr").length;
+
+    // add Row
+    function addHtmlTableRow()
+    {
+        // get the table by id
+        // create a new row and cells
+        // get value from input text
+        // set the values into row cell's
+
+        var newRow = table.insertRow(table.length),
+            cell1 = newRow.insertCell(0),
+            cell2 = newRow.insertCell(1),
+            cell3 = newRow.insertCell(2),
+            cell4 = newRow.insertCell(3),
+            name = document.getElementById("name").value,
+            bday = document.getElementById("bday").value,
+            eyecolour = document.getElementById("eyecolour").value;
+            remove =
+
+        cell1.innerHTML = name;
+        cell2.innerHTML = bday;
+        cell3.innerHTML = eyecolour;
+        cell4.innerHTML = remove;
+        // call the function to set the event to the new row
+        selectedRowToInput();
+
+    }
+
+      // display selected row data into input text
+    function selectedRowToInput()
+    {
+
+        for(var i = 1; i < table.rows.length; i++)
+        {
+            table.rows[i].onclick = function()
+            {
+              // get the seected row index
+              rIndex = this.rowIndex;
+              document.getElementById("name").value = this.cells[0].innerHTML;
+              document.getElementById("bday").value = this.cells[1].innerHTML;
+              document.getElementById("eyecolour").value = this.cells[2].innerHTML;
+
+            };
+        }
+    }
+    selectedRowToInput
+
+function resetPage(){
+    window.location.reload();
+}
+</script>

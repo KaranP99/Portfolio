@@ -1,0 +1,108 @@
+<!--reference: http://1bestcsharp.blogspot.com/2017/04/javascript-add-edit-remove-table-row.html-->
+<!--https://www.w3schools.com/jsref/met_table_insertrow.asp-->
+<html>
+<body>
+<title>KP482-Qustion 1</title>
+<h2> Question 1 </h2>
+
+<div >
+  Name:<br>
+  <input type="text" name= "name" id="name"><br><br>
+
+  Birth Date:<br> <input type="date" name ="bday" id="bday"><br>
+
+  <br>Eye Colour:<br>
+  <select name = "eyecolour" id="eyecolour">
+  <option value="Blue">Blue</option>
+  <option value="Brown">Brown</option>
+  <option value="Green">Green</option>
+  <option value="Grey">Grey</option>
+  <option value="Other">Other</option>
+</select><br>
+<br> <input type="button" onclick="resetPage()" value="Reset form">
+<br> <button onclick="addHtmlTableRow();">Display</button>
+</div>
+
+
+<div class="container">
+            <div class="tab tab-1">
+<table id="table" border="1">
+<tr>
+<th bgcolor="white">Name</th>
+<th bgcolor="white">Date Of Birth</th>
+<th bgcolor="white">EyeColour</th>
+<th bgcolor = "white">Delete</th>
+</tr>
+</table>
+<p id="counter"></p>
+<button onclick="countFunction();">Update Counter</button>
+</div>
+
+
+<style>
+
+            table{
+    border:1px solid;
+}
+
+tbody tr:nth-child(even){
+    background-color:blue;
+    font-weight: bold;
+}
+tbody tr:nth-child(odd){
+    background-color:yellow;
+    font-weight: bold;
+}
+</style>
+
+<script>
+
+
+    // add Row
+    function addHtmlTableRow()
+    {
+        // get the table by id
+        // create a new row and cells
+        // get value from input text
+        // set the values into row cell's
+
+        var newRow = table.insertRow(table.length),
+         cell1 = newRow.insertCell(0),
+         cell2 = newRow.insertCell(1),
+         cell3 = newRow.insertCell(2),
+         deleterow = newRow.insertCell(3).innerHTML = '<button>Remove</button>';
+         deleterow.onclick = function(){
+         deleteRow(rowID);
+       }
+
+            name = document.getElementById("name").value,
+            bday = document.getElementById("bday").value,
+            eyecolour = document.getElementById("eyecolour").value;
+
+
+
+        cell1.innerHTML = name;
+        cell2.innerHTML = bday;
+        cell3.innerHTML = eyecolour;
+
+    }
+
+  function myFunction() {
+      document.getElementById("table").deleteRow(0);
+    }
+
+function resetPage(){
+    window.location.reload();
+}
+
+  document.getElementById("conter").innerHTML = countFunction();
+
+
+function countFunction() {
+  var count = document.getElementById("table").rows.length;
+  document.getElementById("counter").innerHTML = "Found " + count + " rows in the table.";
+}
+</script>
+
+</body>
+</hmtl>

@@ -1,0 +1,43 @@
+
+<html>
+<head>
+  <title>KP482-Qustion 2</title>
+</head>
+<style type="text/css">
+.box {
+width: 50px;
+height: 50px;
+margin: 5px;
+background: #555;
+display: inline-block;
+}
+</style>
+
+<script>
+function makeboxes(){
+   // Collect all to a string
+var box = '';
+for (var i = 0; i < document.getElementById("size").value; i++){
+  var r = Math.floor(Math.random()*256);          // Random between 0-255
+  var g = Math.floor(Math.random()*256);          // Random between 0-255
+  var b = Math.floor(Math.random()*256);          // Random between 0-255
+  var rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
+box += '<div class="box" style="background-color:' + rgb +';margin-left:' + i+i + 'px"></div>';
+
+}
+document.getElementById("container").innerHTML = box;
+}
+</script>
+
+<body>
+
+  <h2>Question 2</h2>
+  <form id="config">
+  How Many Boxes You Want: <input id="size" type="number" />
+  <input type="button" value="Go" onClick="makeboxes();" />
+  </form><br />
+
+<div id="container"></div>
+
+</body>
+</html>
