@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=UG
+comment0.text=\r\n\ The\ UG\ class\ represents\ undergraduate\ student\ at\ a\ university.\r\n\ It\ holds\ relevant\ details\ of\ a\ student.\r\n\ \r\n\ @author\ Yang\ He\r\n\ @version\ Aug\ 2018\r\n
+comment1.params=sid\ name\ isMale
+comment1.target=UG(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Create\ a\ new\ undergraduate\ student.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getCourseIDs()
+comment2.text=\r\n\ Return\ the\ list\ of\ course\ IDs\ taken\ by\ the\ student.\r\n
+comment3.params=c
+comment3.target=void\ registerOn(Course)
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ Print\ the\ student's\ details\ to\ the\ output\ terminal.\r\n\ e.g.\ \ Student\ ID\:\ stud23\ \ \ \ Name\:\ Cathy\ Lee\ \ \ Gender\:\ Female\r\n\ \ \ \ \ \ \ Courses\:\ CO320\ CO323\r\n
+numComments=5

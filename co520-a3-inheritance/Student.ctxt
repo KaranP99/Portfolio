@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Student\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=sid\ name\ isMale
+comment1.target=Student(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getSID()
+comment2.text=\r\n\ Return\ the\ student\ ID\ of\ this\ student.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Return\ the\ name\ of\ this\ student.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getGender()
+comment4.text=\r\n\ Return\ the\ String\ "Male"\ if\ the\ student\ is\ male,\ otherwise\ "Female".\r\n
+comment5.params=
+comment5.target=void\ print()
+numComments=6

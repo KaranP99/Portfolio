@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ The\ Course\ class\ represents\ a\ course\ run\ at\ a\ university.\r\n\ It\ holds\ relevant\ details\ of\ a\ course.\r\n\ \r\n\ @author\ Yang\ He\r\n\ @version\ Aug\ 2018\r\n
+comment1.params=cid\ title\ convenor
+comment1.target=Course(java.lang.String,\ java.lang.String,\ Staff)
+comment1.text=\r\n\ Create\ a\ new\ course\ with\ a\ given\ ID,\ title\ and\ convenor.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCID()
+comment2.text=\r\n\ Return\ the\ course\ ID\ of\ this\ course.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment3.text=\r\n\ Return\ the\ title\ of\ this\ course\r\n
+comment4.params=title
+comment4.target=void\ setTitle(java.lang.String)
+comment4.text=\r\n\ Set\ a\ new\ title\ for\ this\ course.\r\n
+comment5.params=
+comment5.target=Staff\ getConvenor()
+comment5.text=\r\n\ Return\ the\ convenor\ of\ this\ course\r\n
+comment6.params=convenor
+comment6.target=void\ setConvenor(Staff)
+comment6.text=\r\n\ Set\ a\ new\ convenor\ for\ this\ course.\r\n
+comment7.params=
+comment7.target=void\ print()
+comment7.text=\r\n\ Print\ the\ course\ details,\ i.e.\ course\ id,\ title\ and\ name\ of\ the\ convenor,\ to\ the\ output\ terminal.\r\n
+numComments=8

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PG
+comment0.text=\r\n\ The\ PG\ class\ represents\ postgraduate\ student\ at\ a\ university.\r\n\ It\ holds\ relevant\ details\ of\ a\ student.\r\n\ \r\n\ @author\ Yang\ He\r\n\ @version\ Aug\ 2018\r\n
+comment1.params=sid\ name\ isMale
+comment1.target=PG(java.lang.String,\ java.lang.String,\ boolean)
+comment2.params=s
+comment2.target=void\ assignSupervisor(Staff)
+comment2.text=\r\n\ Assign\ a\ given\ supervisor\ to\ the\ student.\r\n
+comment3.params=
+comment3.target=Staff\ getSupervisor()
+comment3.text=\r\n\ Return\ the\ supervisor\ of\ the\ student.\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ Print\ the\ student's\ details\ to\ the\ output\ terminal.\r\n\ e.g.\ \ \r\n\ Student\ ID\:\ S01\ \ \ \ Name\:\ Cathy\ Lee\ \ \ Gender\:\ Female\r\n\ Supervisor\:\ Jane\ Brown\ \ \ \ \ \ \r\n
+numComments=5
