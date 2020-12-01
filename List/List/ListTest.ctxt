@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ListTest
+comment0.text=\r\n\ Simple\ class\ to\ test\ a\ linked\ list\ implementation.\r\n\ \r\n\ @author\ Fernando\ Otero\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
