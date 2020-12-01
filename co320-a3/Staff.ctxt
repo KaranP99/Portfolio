@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Staff
+comment0.text=\r\n\ The\ Staff\ class\ represents\ an\ academic\ member\ of\ staff\ at\ university\ of\ Kent.\r\n\ It\ holds\ relevant\ details\ of\ a\ member\ of\ staff.\r\n\ \r\n\ @author\ Yang\ He\r\n\ @version\ 2018.09.20\r\n
+comment1.params=sid\ name
+comment1.target=Staff(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ member\ of\ staff\ with\ a\ given\ ID\ and\ name.\r\n\ \r\n\ @param\ \ sid\ \ \ \ A\ staff\ id\r\n\ @param\ \ name\ \ \ A\ staff\ name\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Get\ the\ full\ name\ of\ the\ staff\ member.\r\n\ \r\n\ @return\ the\ full\ name\ of\ the\ staff\ member\r\n
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\r\n\ Set\ a\ new\ name\ for\ this\ member\ of\ staff.\r\n\ \r\n\ @param\ name\ \ A\ staff\ name\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSID()
+comment4.text=\r\n\ Get\ the\ staff\ ID\r\n\ \r\n\ @return\ \ The\ staff\ ID.\r\n
+numComments=5

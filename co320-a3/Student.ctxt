@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ The\ Student\ class\ represents\ a\ student\ at\ a\ university.\r\n\ It\ holds\ relevant\ details\ of\ a\ student.\r\n\ \r\n\ @Karan\ Patel,\ KP482\r\n\ @05/11/2018\r\n
+comment1.params=sid\ name\ isMale
+comment1.target=Student(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Create\ a\ new\ student\ with\ a\ given\ ID,\ name\ and\ gender.\ \r\n\ \r\n\ @param\ \ sid\ \ \ \ \ A\ student\ ID\r\n\ @param\ \ name\ \ \ \ A\ student\ name\r\n\ @param\ \ isMale\ \ A\ student\ is\ male\ or\ not\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSID()
+comment2.text=\r\n\ Get\ the\ student\ ID\ of\ this\ student\r\n\ \r\n\ @return\ the\ student\ ID\ of\ this\ student.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Get\ \ the\ name\ of\ this\ student.\r\n\ \r\n\ @return\ \ the\ name\ of\ this\ student.\r\n
+comment4.params=newname
+comment4.target=void\ setName(java.lang.String)
+comment4.text=\r\n\ Set\ a\ new\ name\ for\ this\ student.\r\n\ \r\n\ @param\ name\ \ A\ new\ name\ for\ this\ student\r\n
+comment5.params=
+comment5.target=java.lang.String\ getGender()
+comment5.text=\r\n\ Get\ the\ gender\ of\ the\ student,\ i.e.\ "Male"\ or\ "Female"\r\n\ \r\n\ @return\ The\ String\ "Male"\ if\ the\ student\ is\ male,\ \r\n\ \ \ \ \ \ \ \ \ otherwise\ "Female".\r\n
+comment6.params=
+comment6.target=void\ print()
+comment6.text=\r\n\ Print\ the\ student's\ details,\ \r\n\ i.e.\ id,\ name,\ gender\ and\ a\ list\ of\ course\ IDs,\ \r\n\ to\ the\ output\ terminal,\r\n\ e.g.\ \ Student\ ID\:\ S01\ \ \ Name\:\ Cathy\ Lee\ \ \ Gender\:\ Female\ \ \ \r\n\ \ \ \ \ \ \ Courses\:\ CO320\ CO322\r\n
+comment7.params=newStudentReg
+comment7.target=void\ courseRegistration(Course)
+comment7.text=\r\n\ This\ is\ a\ new\ method\ class\ to\ register\ the\ students\ on\ a\ given\ course.\r\n\ The\ code\ will\ first\ check\ to\ see\ if\ the\ course\ is\ full\ \r\n
+numComments=8
