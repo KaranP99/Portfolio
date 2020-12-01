@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Coursework
+comment0.text=\r\n\ CO551\ -\ 2019\ Assessment\ 1.\r\n\r\n\ @version\ 1.1\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Method\ to\ test\ the\ implemenation\ of\ the\ tasks.\ Note\ that\ this\r\n\ are\ just\ examples,\ your\ implementation\ must\ work\ with\ any\r\n\ valid\ input.\r\n
+comment2.params=original
+comment2.target=int[]\ averageSubarray(int[])
+comment2.text=\r\n\ Task\ 1.\r\n
+comment3.params=expression
+comment3.target=boolean\ checkExpression(java.lang.String)
+comment3.text=\r\n\ Task\ 2.\r\n
+numComments=4
