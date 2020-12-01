@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Sensor
+comment1.params=mode
+comment1.target=Sensor(int)
+numComments=2
