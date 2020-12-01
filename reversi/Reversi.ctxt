@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Reversi
+comment1.params=
+comment1.target=Reversi()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Reversi\r\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=
+comment8.target=javax.swing.JPanel\ makePlayerPanel()
+comment9.params=e
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=10
