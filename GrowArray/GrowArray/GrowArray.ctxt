@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GrowArray
+comment0.text=\r\n\ A\ simple\ dynamic\ array.\r\n\ \r\n\ @author\ Scott\ Owens\r\n\ @author\ Stefan\ Kahrs\r\n
+comment1.params=
+comment1.target=GrowArray()
+comment2.params=
+comment2.target=int\ size()
+comment3.params=i
+comment3.target=java.lang.String\ get(int)
+comment4.params=s
+comment4.target=void\ add(java.lang.String)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=pos\ value
+comment6.target=void\ set(int,\ java.lang.String)
+numComments=7
